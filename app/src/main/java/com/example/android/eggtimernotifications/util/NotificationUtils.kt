@@ -38,11 +38,14 @@ private val FLAGS = 0
  * @param context, activity context.
  */
 fun NotificationManager.sendNotification(messageBody: String, applicationContext: Context) {
-    // Create the content intent for the notification, which launches
-    // this activity
-    // TODO: Step 1.11 create intent
 
-    // TODO: Step 1.12 create PendingIntent
+    val contentIntent = Intent(applicationContext, MainActivity::class.java)
+    val pendingIntent = PendingIntent.getActivity(
+        applicationContext,
+        NOTIFICATION_ID,
+        contentIntent,
+        PendingIntent.FLAG_UPDATE_CURRENT
+    )
 
     // TODO: Step 2.0 add style
 
@@ -58,7 +61,8 @@ fun NotificationManager.sendNotification(messageBody: String, applicationContext
         .setSmallIcon(R.drawable.cooked_egg)
         .setContentTitle(applicationContext.getString(R.string.notification_title))
         .setContentText(messageBody)
-    // TODO: Step 1.13 set content intent
+        .setContentIntent(pendingIntent)
+        .setAutoCancel(true)
 
     // TODO: Step 2.1 add style to builder
 
@@ -70,4 +74,6 @@ fun NotificationManager.sendNotification(messageBody: String, applicationContext
     notify(NOTIFICATION_ID, builder.build())
 }
 
-// TODO: Step 1.14 Cancel all notifications
+fun NotificationManager.cancelNotifications() {
+    cancelAll()
+}
