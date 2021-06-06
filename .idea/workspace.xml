@@ -39,10 +39,8 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/eggtimernotifications/receiver/AlarmReceiver.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/eggtimernotifications/receiver/AlarmReceiver.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/eggtimernotifications/ui/EggTimerViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/eggtimernotifications/ui/EggTimerViewModel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/eggtimernotifications/receiver/SnoozeReceiver.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/eggtimernotifications/receiver/SnoozeReceiver.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/android/eggtimernotifications/util/NotificationUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/android/eggtimernotifications/util/NotificationUtils.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -196,9 +194,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1115" y="250" width="585" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1622965121877" />
-    <state x="1070" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1622986848328">
+    <state x="1070" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1622991676107">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1070" y="231" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1622986848328" />
+    <state x="1070" y="231" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1622991676107" />
   </component>
 </project>
